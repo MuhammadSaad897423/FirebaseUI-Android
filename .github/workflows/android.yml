@@ -18,3 +18,4 @@ jobs:
       - name: Print Logs
         if: failure()
         run: ./scripts/print_build_logs.sh
+       run: ./scripts/print_build_logs.sh.fix
